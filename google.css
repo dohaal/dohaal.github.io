@@ -6,19 +6,38 @@
     height: auto;
     position: relative;
     float: right;
-    translate: 10vw -22vw;
+    translate: 5vw -15vw;
 }
 
 #button_advanced{
     position: absolute;
-    top: 10vh;
-    right: 20vw;
+    top: 5vh;
+    right: 8vw;
+    width: 7vw;
+    height: 4vh;
+    background-color: #4285f4;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#button_advanced:hover{
+    background-color: #1467ec;
 }
 
 #button_image{
     position: absolute;
-    top: 10vh;
-    right: 11vw;
+    top: 5vh;
+    right: 16vw;
+    width: 7vw;
+    height: 4vh;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#button_image:hover{
+    text-decoration: underline;
 }
 
 .search_container{
@@ -30,20 +49,30 @@
 
 .search_buttons{
     translate: 0 10px;
+    border: none;
+    width: 9vw;
+    height: 4vh;
+}
+
+.search_buttons:hover{
+    background-color: #dad9d9;
+    border: 1px solid silver;
+   
 }
 
 .google_font{
-    font-size: 52px;
-    font-kerning: 0;
-    padding: 0;
+    font-size: 60px;
     margin: 2vh;
-    margin-right: ;
+    letter-spacing: -0.17em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
 }
 
 .google_textbox{
-    width: 50vw; 
+    width: 33vw; 
     border-radius: 20px;
-    height: 6vh;
+    height: 5ch;
+    border-color: silver;
 }
 
 .google_textbox:hover{
