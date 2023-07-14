@@ -1,15 +1,51 @@
 *{
     box-sizing: border-box;
 }
-.mybutton{
-    float: right;
+.button_container{
     width: 10vw;
     height: auto;
-    display: inline;
+    position: relative;
+    float: right;
+    translate: 10vw -22vw;
 }
 
-.mysearch{
+#button_advanced{
+    position: absolute;
+    top: 10vh;
+    right: 20vw;
+}
+
+#button_image{
+    position: absolute;
+    top: 10vh;
+    right: 11vw;
+}
+
+.search_container{
     margin: auto;
     text-align: center;
-    margin-top: 45vh;
+    margin-top: 30vh;
+    /*position: relative;*/
+}
+
+.search_buttons{
+    translate: 0 10px;
+}
+
+.google_font{
+    font-size: 52px;
+    font-kerning: 0;
+    padding: 0;
+    margin: 2vh;
+    margin-right: ;
+}
+
+.google_textbox{
+    width: 50vw; 
+    border-radius: 20px;
+    height: 6vh;
+}
+
+.google_textbox:hover{
+    background-color: #eeeeee;
 }
