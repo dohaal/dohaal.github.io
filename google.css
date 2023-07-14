@@ -40,11 +40,19 @@
     text-decoration: underline;
 }
 
+.images_subscript{
+    position: absolute;
+    left: 55vw;
+    top: 6vh;
+    font-weight: 300;
+
+}
+
 .search_container{
     margin: auto;
     text-align: center;
     margin-top: 30vh;
-    /*position: relative;*/
+    position: relative;
 }
 
 .search_buttons{
