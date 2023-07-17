@@ -20,10 +20,46 @@
             <span style="color:#EA4335;">e</span>
         </h6>
         <h3 class="font_advanced">Advanced Search</h3>
-        <div>
+        <form action="https://google.com/search">
             <table>
-                
+                <tr>
+                    <td>
+                        <h5>Find pages with...</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>all these words:</p>
+                    </td>
+                    <td>
+                        <input class="advanced_textbox" type="text" name="as_q">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>this exact word or phrase:</p>
+                    </td>
+                    <td>
+                        <input class="advanced_textbox" type="text" name="as_epq">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>any of these words:</p>
+                    </td>
+                    <td>
+                        <input class="advanced_textbox" type="text" name="as_oq">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>none of these words:</p>
+                    </td>
+                    <td>
+                        <input class="advanced_textbox" type="text" name="as_eq">
+                    </td>
+                </tr>
             </table>
-        </div>
+            <input id="button_advanced_search" type="submit" value="Advanced Search">
     </body>
 </html>
