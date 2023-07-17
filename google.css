@@ -1,6 +1,21 @@
 *{
     box-sizing: border-box;
 }
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-left: 2vw;
+    font-size: medium;
+}
+
+p{
+    padding-left: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+}
+
 .button_container{
     width: 10vw;
     height: auto;
@@ -15,14 +30,33 @@
     right: 8vw;
     width: 7vw;
     height: 4vh;
-    background-color: #4285f4;
+    background-color: white;
     border: none;
-    color: white;
     cursor: pointer;
 }
 
 #button_advanced:hover{
+    text-decoration: underline;
+}
+
+
+#button_advanced_search{
+    color: white; 
+    height: 4vh; 
+    width: auto;
+    background-color: #4285f4; 
+    border: none; 
+    margin-left: 28vw;"
+    cursor: pointer;
+}
+
+#button_advanced_search:hover{
     background-color: #1467ec;
+}
+
+.advanced_textbox{
+    width: 20vw;
+    margin-left: 2vw;
 }
 
 #button_image{
