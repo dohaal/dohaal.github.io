@@ -76,6 +76,25 @@
     font-weight: 400;
 }
 
+.google_font_small{
+    font-size: 25px;
+    margin: 2vh;
+    letter-spacing: -0.17em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.font_advanced{
+    padding: 2vw;
+    padding-left: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2vh;
+    color:#EA4335;
+    font-weight: lighter;
+    border-bottom: 1px solid silver;
+    
+}
+
 .google_textbox{
     width: 33vw; 
     border-radius: 20px;
